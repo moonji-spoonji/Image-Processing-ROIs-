@@ -1,0 +1,6 @@
+baboon.pgm baboon2.pgm  1    20 20 100 100 binarize 100
+baboon.pgm twoROIs.pgm  2    100 10 50 100 add 100         400 400 100 100 binarize 50
+baboon.pgm binar_2.pgm  2    200 200 70 100 binarize 150     300 300 100 100 add 50
+matgraygubler.ppm visualized.ppm  1   20 280 100 100 visualize 50 150
+matgraygubler.ppm colored.ppm     3   0 0 130 120 color 0 69 0    175 30 100 100 color 0 189 255   180 230 100 100 color 100 0 200 
+matgraygubler.ppm funny.ppm       3   10 10 100 100 aoi 100       180 230 100 100 color 100 0 200  20 280 100 100 visualize 50 150
